@@ -1,0 +1,11 @@
+.td {
+  padding: 10px;
+  border: 1px solid var(--color-gray);
+  color: var(--color-dark);
+}
+
+.tr {
+  &:nth-of-type(odd) {
+    background-color: var(--color-light);
+  }
+}
